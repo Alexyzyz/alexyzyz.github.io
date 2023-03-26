@@ -28,7 +28,7 @@
       var texture2 = new THREE.TextureLoader().load("02_painting.png");
 
       // Create a plane geometry and material with the two textures
-      var geometry = new THREE.PlaneGeometry(2, 2, 1);
+      var geometry = new THREE.PlaneGeometry(5, 10, 1);
       var material = new THREE.ShaderMaterial({
         uniforms: {
           texture1: { value: texture1 },
